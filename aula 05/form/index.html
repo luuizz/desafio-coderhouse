@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo formulário</title>
+</head>
+<body>
+    <form>
+
+
+    <label for="name">Nome:</label>
+    <input type="text" name="name">
+
+    <label for="sobrenome">Sobrenome: </label>
+    <input type="text" name="sobrenome">
+
+    <p>Gênero</p>
+    <select name="genero" id="genero">
+        <option value="genero_feminino">Feminino</option>
+        <option value="genero_masculino">Masculino</option>
+        <option value="genero_outros">Outros</option>
+    </select>
+
+    <div>
+        <p>Cor favorita</p>
+        <span>Vermelho</span>
+        <input type="checkbox" name="cor-favorita" value="vermelho">
+
+        <span>Verde</span>
+        <input type="checkbox" name="cor-favorita" value="verde">
+
+        <span>Amarelo</span>
+        <input type="checkbox" name="cor-favorita" value="amarelo">
+    </div>
+
+    <div>
+        <p>Cor favorita: (apenas uma)</p>
+
+        <span>Vermelho</span>
+        <input type="radio" name="apenas-uma-cor" value="vermelho">
+
+        <span>Azul</span>
+        <input type="radio" name="apenas-uma-cor" value="Azul">
+
+        <span>Amarelo</span>
+        <input type="radio" name="apenas-uma-cor" value="amarelo">
+    </div>
+
+    <button type="submit">Enviar formulário</button>
+    <button type="reset">Limpar formulário</button>
+</form>
+</body>
+</html>
